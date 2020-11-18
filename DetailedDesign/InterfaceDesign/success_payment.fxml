@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: #F1CEF4;">
+         <children>
+            <Pane prefHeight="100.0" prefWidth="120.0">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@lil%20pump.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <Pane layoutY="100.0" prefHeight="200.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="61.0" fitWidth="293.0" layoutX="199.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@success_payment.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="-1.0" layoutY="317.0" prefHeight="82.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="256.0" layoutY="22.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="88.0" text="OK" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
